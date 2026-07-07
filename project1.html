@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project 1 - Sulaiman Isah Nasidi</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #ffffff;
+      color: #222222;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1f4e8c;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 { font-size: 28px; margin-bottom: 5px; }
+    header p { font-size: 16px; }
+
+    nav {
+      background-color: #ffffff;
+      border-bottom: 3px solid #1f4e8c;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 5px 8px;
+      padding: 7px 11px;
+      color: #1f4e8c;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    nav a:hover { background-color: #1f4e8c; color: #ffffff; }
+
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #1f4e8c;
+      font-size: 24px;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #d6e4f5;
+      padding-bottom: 6px;
+    }
+
+    .project-box {
+      background-color: #f0f6fc;
+      border: 1px solid #c9dcf0;
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .preview-box {
+      background-color: #d6e4f5;
+      border: 2px dashed #1f4e8c;
+      border-radius: 8px;
+      padding: 25px;
+      margin-bottom: 20px;
+    }
+
+    /* Mini preview of the survey form */
+    .mini-form label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 4px;
+      font-size: 13px;
+    }
+
+    .mini-form input,
+    .mini-form select {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #c9dcf0;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+
+    .mini-form .mini-btn {
+      background-color: #1f4e8c;
+      color: #ffffff;
+      border: none;
+      padding: 7px 15px;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+
+    p { margin-bottom: 10px; font-size: 16px; }
+
+    .tag {
+      display: inline-block;
+      background-color: #1f4e8c;
+      color: #ffffff;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 13px;
+      margin-right: 6px;
+      margin-top: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th {
+      background-color: #1f4e8c;
+      color: #ffffff;
+      padding: 8px;
+      text-align: left;
+    }
+
+    td { padding: 8px; border: 1px solid #d6e4f5; }
+    tr:nth-child(even) { background-color: #f0f6fc; }
+
+    footer {
+      background-color: #1f4e8c;
+      color: #ffffff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sulaiman Isah Nasidi</h1>
+    <p>Software Engineering Student &mdash; Northwest University</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="education.html">Education</a>
+    <a href="certificate.html">Certificate</a>
+    <a href="project1.html">Project 1</a>
+    <a href="project2.html">Project 2</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Project 1 &mdash; Survey Form</h2>
+
+    <div class="project-box">
+
+      <div class="preview-box">
+        <p style="text-align:center; font-weight:bold; color:#1f4e8c; margin-bottom:12px;">
+          Preview of the Form
+        </p>
+        <div class="mini-form">
+          <label>Name</label>
+          <input type="text" placeholder="Enter your name">
+          <label>Email</label>
+          <input type="email" placeholder="Enter your email">
+          <label>How did you find this course?</label>
+          <select>
+            <option>A Friend</option>
+            <option>Search Engine</option>
+          </select>
+          <button class="mini-btn">Submit</button>
+        </div>
+      </div>
+
+      <p>This is the <strong>Survey Form</strong> project I built as part of my freeCodeCamp
+      Responsive Web Design certification. The goal was to build a working HTML form that
+      passes all 16 user story tests on the platform.</p>
+
+      <p>I learned how to use different input types like text, email, number, radio buttons,
+      checkboxes, dropdowns, and a textarea. I also learned about the importance of labels
+      and the HTML5 validation attributes like <code>required</code>, <code>min</code>,
+      and <code>max</code>.</p>
+
+      <table>
+        <tr>
+          <th>Item</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td>Project Name</td>
+          <td>Survey Form</td>
+        </tr>
+        <tr>
+          <td>Platform</td>
+          <td>freeCodeCamp</td>
+        </tr>
+        <tr>
+          <td>Technologies Used</td>
+          <td>HTML5 and CSS3</td>
+        </tr>
+        <tr>
+          <td>User Stories Passed</td>
+          <td>16 out of 16</td>
+        </tr>
+      </table>
+
+      <span class="tag">HTML5</span>
+      <span class="tag">CSS3</span>
+      <span class="tag">Forms</span>
+      <span class="tag">freeCodeCamp</span>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Sulaiman Isah Nasidi. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
